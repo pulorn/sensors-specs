@@ -1,0 +1,7 @@
+{
+  "unique_id": "Идентификатор",
+  "model": "Тип, марка, модель, шифр",
+  "manufacturer": "Завод-изготовитель",
+  "order_code": "<keep-it-as-a-placeholder>",
+  "spec_blob": "Тех.хар-ки\nоборудования"
+}

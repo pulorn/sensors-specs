@@ -1,0 +1,20 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Load Excel → Neo4j",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/neo4j_upsert_polish_locked.py",
+      "args": [
+        "--excel", "${workspaceFolder}/sensor_specification.xlsx",
+        "--sheet", "ПКШ-ОБОР",
+        "--idcol", "Идентификатор"
+      ],
+      "envFile": "${workspaceFolder}/.env",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}",
+      "python": "${workspaceFolder}/.venv/bin/python"
+    }
+  ]
+}

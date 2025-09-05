@@ -1,0 +1,9 @@
+pandas
+neo4j
+openpyxl
+orjson
+python-dotenv
+regex
+rapidfuzz
+pint
+tqdm
